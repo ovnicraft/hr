@@ -38,7 +38,6 @@ Easily create, manage, and track employee schedules.
         'hr_contract_init',
         'hr_employee_state',
         'hr_holidays',
-        'hr_security',
     ],
     "external_dependencies": {
         'python': ['dateutil'],
@@ -59,5 +58,5 @@ Easily create, manage, and track employee schedules.
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
 }

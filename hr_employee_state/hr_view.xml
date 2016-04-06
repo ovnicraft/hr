@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
     <data>
-        
+
         <record id="view_employee_form" model="ir.ui.view">
             <field name="name">hr.employee.form.inherit.1</field>
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
                 <data>
-                    <xpath expr="//form/sheet/field[@name='image_medium']" position="before">
+                    <xpath expr="/form/*" position="before">
                         <header>
                             <button name="signal_confirm" type="workflow" string="Confirm"
                                     attrs="{'invisible': [('status','!=','new')]}" groups="base.group_hr_manager" class="oe_highlight"/>
@@ -45,7 +45,7 @@
                 </data>
             </field>
         </record>
-        
+
 
         <record id="view_termination_filter" model="ir.ui.view">
             <field name="name">Employees</field>
@@ -61,7 +61,7 @@
                 </search>
              </field>
          </record>
-         
+
         <record id="hr_employee_termination_tree_view" model="ir.ui.view">
             <field name="name">hr.employee.termination.tree</field>
             <field name="model">hr.employee.termination</field>
@@ -75,7 +75,7 @@
                 </tree>
             </field>
         </record>
-        
+
         <record id="hr_employee_termination_form_view" model="ir.ui.view">
             <field name="name">hr.employee.termination.form</field>
             <field name="model">hr.employee.termination</field>
@@ -109,7 +109,7 @@
                 </form>
             </field>
         </record>
-        
+
         <record id="open_hr_employee_termination" model="ir.actions.act_window">
             <field name="name">Employment Termination</field>
             <field name="res_model">hr.employee.termination</field>
@@ -122,9 +122,9 @@
             action="open_hr_employee_termination"
             parent="hr.menu_hr_main"
             sequence="150"/>
-        
+
         <!-- Termination Reason -->
-        
+
         <record id="view_termination_reason_tree" model="ir.ui.view">
             <field name="name">hr.employee.termination.reason.tree</field>
             <field name="model">hr.employee.termination.reason</field>
@@ -134,7 +134,7 @@
                 </tree>
             </field>
         </record>
-        
+
         <record id="view_termination_reason_form" model="ir.ui.view">
             <field name="name">hr.employee.termination.reason.form</field>
             <field name="model">hr.employee.termination.reason</field>
@@ -144,7 +144,7 @@
                 </form>
             </field>
         </record>
-        
+
         <record id="open_termination_reason" model="ir.actions.act_window">
             <field name="name">Employment Termination Reasons</field>
             <field name="res_model">hr.employee.termination.reason</field>
@@ -160,7 +160,7 @@
         <record id="view_contract_form" model="ir.ui.view">
             <field name="name">hr.contract.form.inherit.1</field>
             <field name="model">hr.contract</field>
-            <field name="inherit_id" ref="hr_contract_state.view_contract_form"/>
+            <field name="inherit_id" ref="l10n_ec_hr_contract.view_contract_form"/>
             <field name="arch" type="xml">
                 <data>
                     <xpath expr="//button[@name='signal_done']" position="replace">
@@ -170,6 +170,6 @@
                 </data>
             </field>
         </record>
-        
+
     </data>
 </openerp>

@@ -1,0 +1,197 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_contract_init
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-06 20:41+0000\n"
+"PO-Revision-Date: 2016-04-06 15:59-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_contract_init
+#: code:addons/hr_contract_init/hr_contract.py:154
+#, python-format
+msgid "A Job Position cannot be referenced more than once in a Contract Settings record."
+msgstr "Un puesto de trabajo no puede ser referenciado más de una vez en la configuración de contratos."
+
+#. module: hr_contract_init
+#: field:hr.contract.init,active:0
+msgid "Active"
+msgstr "Activo"
+
+#. module: hr_contract_init
+#: view:hr.contract.init:hr_contract_init.view_contract_init_form
+msgid "Approve"
+msgstr "Aprobar"
+
+#. module: hr_contract_init
+#: selection:hr.contract.init,state:0
+msgid "Approved"
+msgstr "Aprobado"
+
+#. module: hr_contract_init
+#: model:ir.model,name:hr_contract_init.model_hr_contract
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: hr_contract_init
+#: view:hr.contract.init:hr_contract_init.view_contract_init_form
+#: view:hr.contract.init:hr_contract_init.view_contract_init_tree
+msgid "Contract Initial Values"
+msgstr "Valores iniciales de contrato"
+
+#. module: hr_contract_init
+#: field:hr.contract.init.wage,contract_init_id:0
+msgid "Contract Settings"
+msgstr "Configuraciones de Contrato"
+
+#. module: hr_contract_init
+#: model:ir.actions.act_window,name:hr_contract_init.open_contract_init
+#: model:ir.ui.menu,name:hr_contract_init.menu_hr_contract_init
+msgid "Contract Starting Values"
+msgstr "Valores iniciales de contrato"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,create_uid:0
+#: field:hr.contract.init.wage,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,create_date:0
+#: field:hr.contract.init.wage,create_date:0
+msgid "Created on"
+msgstr "Creado"
+
+#. module: hr_contract_init
+#: view:hr.contract.init:hr_contract_init.view_contract_init_form
+msgid "Decline"
+msgstr "Negar"
+
+#. module: hr_contract_init
+#: selection:hr.contract.init,state:0
+msgid "Declined"
+msgstr "Negado"
+
+#. module: hr_contract_init
+#: selection:hr.contract.init,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,date:0
+msgid "Effective Date"
+msgstr "En vigencia desde"
+
+#. module: hr_contract_init
+#: code:addons/hr_contract_init/hr_contract.py:94
+#: code:addons/hr_contract_init/hr_contract.py:174
+#, python-format
+msgid "Error"
+msgstr "Error"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,id:0
+#: field:hr.contract.init.wage,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_contract_init
+#: model:ir.model,name:hr_contract_init.model_hr_contract_init
+msgid "Initial Contract Settings"
+msgstr "Configuraciones iniciales de contrato"
+
+#. module: hr_contract_init
+#: view:hr.contract.init:hr_contract_init.view_contract_init_form
+#: view:hr.contract.init.wage:hr_contract_init.view_init_wage_form
+#: view:hr.contract.init.wage:hr_contract_init.view_init_wage_tree
+msgid "Initial Wages"
+msgstr "Sueldos iniciales"
+
+#. module: hr_contract_init
+#: field:hr.contract.init.wage,job_id:0
+msgid "Job"
+msgstr "Trabajo"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,write_uid:0
+#: field:hr.contract.init.wage,write_uid:0
+msgid "Last Updated by"
+msgstr "Ultima actualización por"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,write_date:0
+#: field:hr.contract.init.wage,write_date:0
+msgid "Last Updated on"
+msgstr "Ultima actualización"
+
+#. module: hr_contract_init
+#: help:hr.contract.init,trial_period:0
+msgid "Length of Trial Period, in days"
+msgstr "Duración del período de prueba, en días"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,name:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,struct_id:0
+msgid "Payroll Structure"
+msgstr "Estructura de Rol"
+
+#. module: hr_contract_init
+#: view:hr.contract.init:hr_contract_init.view_contract_init_form
+msgid "Reset to New"
+msgstr "Reestablecer"
+
+#. module: hr_contract_init
+#: field:hr.contract.init.wage,starting_wage:0
+msgid "Starting Wage"
+msgstr "Salario Inicial"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,wage_ids:0
+#: model:ir.model,name:hr_contract_init.model_hr_contract_init_wage
+msgid "Starting Wages"
+msgstr "Salarios iniciales"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,state:0
+msgid "State"
+msgstr "Estado"
+
+#. module: hr_contract_init
+#: field:hr.contract.init.wage,category_ids:0
+msgid "Tags"
+msgstr "Tags"
+
+#. module: hr_contract_init
+#: field:hr.contract.init,trial_period:0
+msgid "Trial Period"
+msgstr "Período de prueba"
+
+#. module: hr_contract_init
+#: field:hr.contract.init.wage,is_default:0
+msgid "Use as Default"
+msgstr "Usar por defecto"
+
+#. module: hr_contract_init
+#: help:hr.contract.init.wage,is_default:0
+msgid "Use as default wage"
+msgstr "Usar como salario por defecto"
+
+#. module: hr_contract_init
+#: code:addons/hr_contract_init/hr_contract.py:95
+#: code:addons/hr_contract_init/hr_contract.py:175
+#, python-format
+msgid "You may not a delete a record that is not in a \"Draft\" state"
+msgstr "No puedes borrar un registro que no esta en borrador"
+

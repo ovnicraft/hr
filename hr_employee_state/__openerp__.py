@@ -34,7 +34,7 @@ Track the HR status of employees.
     'license': 'AGPL-3',
     'depends': [
         'hr',
-        'hr_contract_state',
+        'l10n_ec_hr_contract',
     ],
     'data': [
         'security/ir.model.access.csv',
@@ -44,7 +44,5 @@ Track the HR status of employees.
         'hr_employee_workflow.xml',
         'hr_view.xml',
     ],
-    'test': [
-    ],
-    'installable': False,
+    'installable': True,
 }
